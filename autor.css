@@ -24,7 +24,7 @@ img {
 
 .header{
     
-   background-image: url(imagenes/itadori2.jpeg);
+   background-image: url(imagenes/gege.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,20 +124,65 @@ h2{
     margin-left: 25px;
 }
 
-p{
+.popular p{
     color: #4c3540;
+    background-color: #816170;
     font-size: 25px;
     margin-right: 25px;
     margin-left: 25px;
+    border: 0;
+    border-radius: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    ;
 }
 
 .popular-content {
        display: block;
-       background-color: #816170;
+       background-color: #48353e;
        border: 0;
        border-radius: 25px;
        margin-right: 25px;
         margin-left: 25px;
+}
+
+.imagen{
+    width: 350px;
+    height: 250px;
+    align-content: center;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+div.galery{
+    margin: 10px 20px;
+    float: left;
+    width: 350px;
+
+}
+div.galery img{
+    width: 100%;
+    height: auto;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+div.galery:hover{
+    border: 1px solid salmon;
+    transform: rotate(-3deg);
+}
+
+div.foot{
+    text-align: center;
+    padding: 10px;
+}
+
+div.foot p{
+    color: aliceblue;
+    background-color: #5a3044;
+    border: 0;
+    border-radius: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 @media(max-width:991px){
