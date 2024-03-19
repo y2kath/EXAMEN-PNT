@@ -25,13 +25,15 @@ img {
 .header{
     
    background-image: url(imagenes/gege.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    min-height: 80vh;
-    padding: 80px 0;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   position: relative;
+   display: flex;
+   align-items: center;
+   min-height: 80vh;
+   padding: 80px 0;
 }
 
 .menu {
@@ -221,5 +223,9 @@ div.foot p{
         font-size: 50px;
         margin-bottom: 15px;
     }
-   
+    .popular-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
